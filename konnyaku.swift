@@ -1,2 +1,0 @@
-// konnnyaku.swift
-// こんにゃくかいてくよー　
