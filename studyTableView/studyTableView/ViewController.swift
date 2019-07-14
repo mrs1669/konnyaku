@@ -19,7 +19,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        items = ["Apple", "Water Melon", "Peach", "Cherry", "Grapes", "pear", "Orange"]
+        items = ["Apple", "Water Melon", "Peach", "Cherry", "Grapes", "pear", "Orange", "aaa"]
         
         // initialize tableview
         tableView = UITableView()
