@@ -37,6 +37,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     // MARK: tableview delegate methods
+    
+    // MARK: こんにちは
+    
     // set the number of rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
