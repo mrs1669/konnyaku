@@ -21,13 +21,18 @@ class ViewController: UIViewController {
     
     @IBAction func displayAlert() {
         
-        let title = "アラートテスト"
-                let message = "タップしてくれてサンクス."
-                let okText = "ok"
+        let title = "本当に押すのかよ"
+                let message = "うぉぉぉぉ"
+                let okText = "ok牧場"
 
                 let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
-                let okayButton = UIAlertAction(title: okText, style: UIAlertAction.Style.cancel, handler: nil)
+                let okayButton = UIAlertAction(title: "キャンセル", style: UIAlertAction.Style.cancel, handler: nil)
+                let noButton = UIAlertAction(title: "でふぉ", style: UIAlertAction.Style.default, handler: nil)
+                let nandemoButton = UIAlertAction(title: "デストラクティブ (有害っぽい感)", style: UIAlertAction.Style.destructive, handler: nil)
+        
                 alert.addAction(okayButton)
+                alert.addAction(noButton)
+                alert.addAction(nandemoButton)
 
                 present(alert, animated: true, completion: nil)
             }
