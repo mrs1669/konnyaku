@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                 alert.addAction(nandemoButton)
 
                 present(alert, animated: true, completion: nil)
-            }
+    }
             // 今回の「アラートを表示」はここまで
     
 }
